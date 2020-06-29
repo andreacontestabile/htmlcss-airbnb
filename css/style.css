@@ -5,6 +5,7 @@
 }
 
 .city {
+  position: relative;
   width: calc(100vw - 40px);
   height: calc(100vh - 40px);
   margin: 20px;
@@ -12,13 +13,22 @@
 }
 
 #tokyo {
-  background-image: url('../img/tokyo.jpg')
+  background-image: url('../img/tokyo.jpg');
 }
 
 #helsinki {
-  background-image: url('../img/helsinki.jpg')
+  background-image: url('../img/helsinki.jpg');
 }
 
 #krakow {
-  background-image: url('../img/krakow.jpg')
+  background-image: url('../img/krakow.jpg');
+}
+
+.overlay {
+  position: absolute;
+  top:0;
+  left:0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
 }
