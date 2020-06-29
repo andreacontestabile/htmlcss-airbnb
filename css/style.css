@@ -32,3 +32,14 @@
   width: 100%;
   background-color: rgba(0,0,0,0.5);
 }
+
+.city-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 100px;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 10px #000;
+}
